@@ -20,11 +20,11 @@ Free domain list
 API List
 --------
 
-[ ] SetEmailAddress 
-[ ] GetEmailAddress 
-[ ] CheckEmail 
-[ ] GetEmailList 
-[ ] FetchEmail 
-[ ] ForgetMe 
-[ ] DelEmail 
-[ ] GetOlderList
+- [ ] SetEmailAddress 
+- [ ] GetEmailAddress 
+- [ ] CheckEmail 
+- [ ] GetEmailList 
+- [ ] FetchEmail 
+- [ ] ForgetMe 
+- [ ] DelEmail 
+- [*] GetOlderList
