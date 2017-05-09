@@ -38,3 +38,20 @@ GetEmailAddress
 	‘email_timestamp’ - a UNIX timestamp when the email address was created. Used by the client to keep track of expiry.
 
 	‘sid_token’ - Session ID token. You would need to supply this parameter to every subsequent API call
+
+-	Example
+
+```go
+	emailaddr, err := client.GetEmailAddress(Argument{
+		"lang": LANGUAGE_EN,
+	})
+```
+
+```json
+{
+	"email_addr": "toepjlvc@guerrillamailblock.com",
+	"email_timestamp": 1494303998,
+	"alias": "7p6kjq+4or03hb2hnh9g",
+	"sid_token": "t10haptqviogmanmvthn6t6at3"
+}
+```

@@ -3,6 +3,8 @@ guerrillamail
 
 Avoid spam and stay safe - use a disposable email address!
 
+Web: [https://www.guerrillamail.com/en/inbox](https://www.guerrillamail.com/en/inbox)
+
 Free domain list
 ----------------
 

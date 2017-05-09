@@ -38,3 +38,28 @@ SetEmailUser
 	‘alias’ - (string) This is the scrambled version of email_addr, eg “fcs5d3+vgdtknvsyt4”. The scrambled address is an alias for email_addr, so all email going to alias will arrive at the inbox of email_addr. Scrambled addresses are used to mask the email_addr, so it is difficult for someone else to know which email_addr was used.
 
 	‘alias_error’ (string) Error message if the alias could not be set
+
+-	Example:
+
+```go
+	email, err := client.SetEmailUser(Argument{
+		"email_user": "qianlnk",
+		"lang":       LANGUAGE_EN,
+	})
+```
+
+```json
+{
+	"alias_error": "",
+	"alias": "7p6jp6+81k7g1oh7dqo",
+	"email_addr": "qianlnk@guerrillamailblock.com",
+	"email_timestamp": 1494303792,
+	"site_id": 1,
+	"sid_token": "tborl8ltnc35cjh5e7jf8npmb4",
+	"site": "emjd",
+	"auth": {
+		"success": true,
+		"error_codes": []
+	}
+}
+```
