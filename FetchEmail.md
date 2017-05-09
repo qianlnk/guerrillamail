@@ -29,16 +29,16 @@ FetchEmail
 
 	Returns false if not found, or an array with the following properties:
 
-	mail_id - an integer mail_from - email address of sender 
-    
-    mail_recipient - email address of receiver mail_subject - UTF-8 encoded string of the email’s subject 
-    
-    mail_excerpt - a short excerpt of the email mail_body - The message part of the email. May contain filtered HTML as described above 
-    
-    mail_timestamp - unix timestamp of arrival mail_date - Date of arrival in the following format if less than 24 hours: H:M:S, or Y-M-D if older than 24 
-    
-    mail_read - 0 or 1 indicating if email was fetched before 
-    
-    content_type - MIME type for the mail_body, can be text/plain or text/html 
-    
-    ‘sid_token’ - Session ID token
+	mail_id - an integer mail_from - email address of sender
+
+	mail_recipient - email address of receiver mail_subject - UTF-8 encoded string of the email’s subject
+
+	mail_excerpt - a short excerpt of the email mail_body - The message part of the email. May contain filtered HTML as described above
+
+	mail_timestamp - unix timestamp of arrival mail_date - Date of arrival in the following format if less than 24 hours: H:M:S, or Y-M-D if older than 24
+
+	mail_read - 0 or 1 indicating if email was fetched before
+
+	content_type - MIME type for the mail_body, can be text/plain or text/html
+
+	‘sid_token’ - Session ID token
